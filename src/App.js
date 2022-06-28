@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import {nameSrcAray} from "../serverSide/app.js"
 
 function App() {
   return (
