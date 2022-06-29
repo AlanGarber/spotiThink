@@ -1,8 +1,6 @@
 import './App.css';
-import axios from 'axios';
 import React from 'react';
-import {useState,useEffect} from 'react' 
-import {logIn} from './axiosClient.js'
+import {useState,useEffect} from 'react'
 
 function App() {
 
@@ -13,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <button onClick={logIn}>
+      <button >
         Log In with Spotify
       </button>
       
